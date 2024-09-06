@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img src="Logo (1).png" alt="">
+    </header>
+    <form action="">
+        <h1>Pendaftaran Akun</h1>
+        <p>Yuk, daftarkan akunmu sekarang juga!</p>
+        <div class="nama">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama">
+        </div>
+        <div class="email">
+            <label for="nama">E-Mail</label>
+            <input type="email" id="email">
+        </div>
+        <div class="number">
+            <label for="negara">No. Hp</label>
+            <div class="wrapper">
+                <img src="icons8-indonesia-48.png" alt="ikon bendera" id="gambarBendera">
+                <select name="negara" id="negara">
+                    <option value="indonesia">+62</option>
+                </select>
+                <input type="tel" id="noHp">
+            </div>
+            
+         
+        </div>
+        <div class="password">
+            <label for="password">Kata Sandi</label>
+            <input type="password" id="password">
+        </div>
+        <div class="konfirmasi">
+            <label for="konfirmasi">Konfirmasi Kata Sandi</label>
+            <input type="password" id="konfirmasi">
+        </div>
+        <a href="#">Lupa Password ?</a>
+        <button id="masuk">Daftar</button>
+        <button id="daftar">Masuk</button>
+        <p id="atau">atau</p>
+        <button id="masukGoogle">Masuk dengan Google</button>
+    </form>
+</body>
+</html>
