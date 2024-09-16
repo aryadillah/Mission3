@@ -1,0 +1,621 @@
+html{
+    font-size: 62.5%;
+    font-family: poppins;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(255, 251, 241);
+    /* width: 144rem; */
+}
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(58, 53, 65, 0.12);
+    height: 8rem;
+    justify-content: flex-end;
+}
+#logo{
+   margin-right: auto;
+   margin-left: 14rem;
+}
+
+#ikon{
+    margin-left: 4rem;
+    margin-right: 12rem;
+}
+#ab{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: rgba(51, 51, 51, 0.68);
+    font-family: DM Sans;
+    font-weight: 500;
+
+}
+#menu{
+    display: none;
+}
+.spanduk{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)), url(StockCake-Team\ Meeting\ Focus_1725617054.jpg);
+    width: auto;
+    height: 40rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
+    margin-top: 8rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textSpanduk{
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.textSpanduk h1{
+    font-size: 4.8rem;
+    text-align: center;
+    font-weight: 900;
+    line-height: 52.8px;
+    color: white
+}
+.textSpanduk p{
+    font-family: DM Sans;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+}
+
+.spanduk button{
+    width: 36.9rem;
+    height: 4.2rem;
+    border-radius: 1rem;
+    background-color: rgba(62, 207, 76, 1);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.card-title{
+    margin-left: 12rem;
+    margin-top: 6rem;
+}
+.card-title h1{
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-align: left;
+    line-height: 3.52rem;
+}
+.card-title p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:rgba(51, 51, 51, 0.68);
+    margin-top: 1rem;
+}
+.slider{
+    margin-left: 12rem;
+    width: 61.2rem;
+    box-sizing: border-box;
+    margin-top: 3rem;
+}
+.slider .tabs{
+    list-style: none;
+    min-width: 100%;
+    height: 5.2rem;
+    display: flex;
+    gap: 4rem;
+    overflow-x: auto;
+    font-family: DM Sans;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: rgba(51, 51, 51, 0.68);
+}
+.slider .tabs::-webkit-scrollbar{
+    display: none;
+}
+.tabs .tab{
+    white-space: nowrap;
+}
+.tabs .tab:hover{
+    color:rgba(246, 73, 32, 1);
+}
+.tab::after{
+    content: '';
+    height: 6px;
+    width: 100%;
+    background:rgba(246, 73, 32, 1);
+    display: block;
+    position: relative;
+    bottom: -12px;
+    border-radius: 10px;
+    opacity: 0;
+}
+.tab:hover::after{
+    opacity: 1;
+}
+
+.cards{
+    margin-left: 12rem;
+    margin-right: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 4rem;
+}
+.card{
+    /* width: 38.4rem; */
+    width: 32rem;
+    height: 42.6rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 90%;
+}
+.card h1{
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.card p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:rgba(51, 51, 51, 0.68);
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.jenna{
+    width: 90%;
+    display: flex;
+    margin-top: 1rem;
+}
+.ortega{
+    width: 100%;
+}
+.jenna img{
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+}
+.jenna h3{
+    font-family: DM Sans;
+    font-size: 1.6rem;    
+}
+.jenna p{
+    font-family: DM Sans;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.rating{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    margin-top: 1rem;
+}
+.rating h4{
+    margin-right: 0;
+    margin-left: auto;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    color: rgba(62, 207, 76, 1);
+}
+.rating h5{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.68);
+    margin-left: 1rem;
+    color:rgba(51, 51, 51, 0.68);
+}
+#hide{
+    display: none;
+}
+.newsletter{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)), url(pexels-anastasiya-gepp-654466-1462630.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 40rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
+    margin-top: 8rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.newsletter h4{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: rgba(193, 194, 196, 1);
+}
+.newsletter h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 35.2px;
+    text-align: left;
+    color: white;
+}
+.newsletter .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    margin-top: 6rem;
+}
+.newsletter p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+    width: 52.5rem;
+}
+.subscribe{
+    background-color:rgba(255, 255, 255, 1);
+    width: 52.5rem;
+    height: 5.8rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-right: 1rem;
+    padding-left: 3rem;
+    margin-bottom: 4rem;
+}
+.subscribe input{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:rgba(51, 51, 51, 0.68);
+    border: none;
+}
+.subscribe button{
+    width: 132px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgba(255, 189, 58, 1);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    color: white;
+}
+footer{
+    background-color: white;
+    margin-top: 6rem;
+    border-top: 1px solid rgba(58, 53, 65, 0.12)
+}
+.footer-atas{
+    display: flex;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding-top: 4rem;
+    justify-content: flex-end;
+    gap: 4rem;
+    border-bottom: 1px solid rgba(58, 53, 65, 0.12);
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+}
+.alamat{
+    margin-left: 0;
+    margin-right: auto;
+}
+.alamat h2{
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:rgba(34, 35, 37, 1);
+    width: 35.2rem;
+    margin-top: 2rem;
+}
+.alamat p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:rgba(58, 53, 65, 0.87);
+    margin-top: 1rem;
+}
+ul {
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:rgba(51, 51, 51, 0.68);
+}
+.footer-atas h3{
+    display: none;
+}
+.footer-bawah{
+    display: flex;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    padding-top: 4rem;
+    justify-content: space-between;
+}
+.footer-bawah p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:rgba(51, 51, 51, 0.68);
+    margin-bottom: 4rem;
+}
+
+/* mobile view */
+@media (max-width: 431px) {
+
+    body{
+        background-color: rgb(255, 251, 241);
+    }
+    #ikon{
+       display: none;
+    }
+    #ab{
+        display: none;
+    
+    }
+    #menu{
+        display: flex;
+        margin-right: 2rem;
+    }
+    #logo{
+        margin-right: auto;
+        margin-left: 3rem;
+     }
+     .spanduk{
+        background-image: url(StockCake-Team\ Meeting\ Focus_1725617054.jpg);
+        margin-left: 2rem;
+        margin-right: 2rem
+    }
+    .textSpanduk h1{
+        font-family: Poppins;
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 26.4px;
+        text-align: center;        
+
+    }
+    .textSpanduk{
+       margin-right: 2rem;
+       margin-left: 2rem;
+    }
+    .textSpanduk p{
+        font-family: DM Sans;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 19.6px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;        
+    }
+
+    .spanduk button{
+        width: 28rem;
+        height: 4.0rem;
+        font-size: 1.4rem;
+    }
+    .card-title{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .card-title h1{
+        font-size: 2.4rem;
+        line-height: 2.64rem;
+    }
+    .card-title p{
+        font-family: DM Sans;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 19.6px;
+    }
+    .slider{
+        margin-left: 2rem;
+        width: auto;
+        box-sizing: border-box;
+    }
+    .cards{
+        box-sizing: border-box;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .card{
+        width: 100%;
+        height: auto;
+    }
+    .card img{
+        width: 8.2rem;
+        height: 8.2rem;
+    }
+    .card h1{
+        font-size: 1.6rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .card p {
+        display: none;
+    }
+    .jenna{
+        margin-top: 0.5rem;
+    }
+    .jenna img{
+        height: 3.6rem;
+        width: 3.6rem;
+        margin-right: 1rem;
+    }
+    .jenna h3{
+        font-size: 1.4rem;
+    }
+    .jenna p{
+        display: inline;
+        font-size: 1.2rem;
+    }
+    .rating h4{
+        font-size: 2rem;
+    }
+    .rating h5{
+        font-size: 1.2rem;
+    }
+    .mobile-card{
+        display: flex;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .mobile-title{
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .ortega p{
+        display: none;
+    }
+    #hide{
+        display: inline;
+    }
+    .newsletter{
+        margin-left: 2rem;
+        margin-right: 2rem
+    }
+    .newsletter h4{
+        font-size: 1.6rem;
+    }
+    .newsletter h1{
+        font-size: 2.4rem;
+        width: auto;
+        text-align: center;
+    }
+    .newsletter p{
+        font-size: 1.4rem;
+        width: auto;
+        text-align: center;
+    }
+    .newsletter .text{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 3rem;
+    }
+    .subscribe{
+        width: auto;
+        height: auto;
+        background: none;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        margin-top: 2rem;
+    }
+    .subscribe input{
+        width: 28rem;
+        height: 4rem;
+        border-radius: 1rem;
+        text-align: center;
+    }
+    .subscribe button{
+        width: 28rem;
+    }
+    .footer-atas{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .alamat h2{
+        width: auto;
+    }
+    .footer-atas ul{
+        display: none;
+    }
+    .footer-atas h3{
+        display: flex;
+        color:rgba(58, 53, 65, 0.54);
+        font-size: 16px;
+    }
+    .Kategori{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Perusahaan{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Komunitas{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-bawah{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+}

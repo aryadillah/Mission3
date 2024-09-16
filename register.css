@@ -201,3 +201,55 @@ a{
     top: 50%;
     left: 4rem;
 }
+@media (max-width: 370px){
+    form{
+        width: 35rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    #nama{
+        width: 35rem;
+    }
+    #email{
+       width: 35rem;
+    }
+    .number{
+        width: 35rem;
+    }
+    #negara{
+      width: 6rem;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        width: 35rem;
+    }
+    #password{
+        width: 35rem;
+    }
+    #konfirmasi{
+        width: 35rem;
+    }
+    a{
+        margin-right: 1rem;
+        margin-left: auto;
+    }
+    #masuk{
+        width: 35rem;
+    }
+    #daftar{
+        width: 35rem;
+    }
+    #atau::before{
+        width: 14rem;
+    }
+    
+    #atau::after{
+       width: 14rem;
+    }
+    #masukGoogle{
+        width: 35rem;
+        background-position: 6rem;
+    }
+}

@@ -8,6 +8,8 @@ html{
 }
 body{
     background-color: rgb(255, 251, 241);
+    margin: 0;
+    padding: 0;
 }
 
 #logo{
@@ -15,10 +17,10 @@ body{
     height: 3rem;
     padding-top: 2.2rem;
     padding-bottom: 2.2rem;
-    padding-left: 12rem;
+    margin-left: 13rem;
 }
 
-header{
+#header{
     display: flex;
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
@@ -169,4 +171,44 @@ a{
     background: rgba(241, 241, 241, 1);
     top: 50%;
     left: 4rem;
+}
+/* mobile view */
+@media (max-width: 370px){
+    form{
+        width: 35rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .wrapper{
+        width: 35rem;
+    }
+    #email{
+        width: 35rem;
+        margin: 0 auto;
+    }
+    #password{
+        width: 35rem;
+    }
+    a{
+        margin-right: 1rem;
+        margin-left: auto;
+    }
+    #masuk{
+        width: 35rem;
+    }
+    #daftar{
+       width: 35rem;
+    }
+    #atau::before{
+        width: 14rem;
+    }
+    
+    #atau::after{
+       width: 14rem;
+    }
+    #masukGoogle{
+        width: 35rem;
+        background-position: 6rem;
+    }
+    
 }
