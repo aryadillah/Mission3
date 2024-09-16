@@ -252,4 +252,7 @@ a{
         width: 35rem;
         background-position: 6rem;
     }
+    img{
+        margin-left: 3rem;
+    }
 }
